@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rate Calculator</title>
+</head>
+<body>
+
+	<header>
+        Rate Calculator
+    </header>
+
+    <main>
+        <div class="block">
+			<div class="controls">
+                <div class="country">
+                    <label for="country">Country</label>
+                    <select class="countries" id="country">
+                        <option value="USA">USA</option>
+                        <option value="England">England</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                    </select>
+                    <!--<button id="btn">Select</button>-->
+                </div>
+                <div class="rates">
+                    <label class="fields">
+                        <input class="input" type="number" placeholder="Local rate">
+                    </label>
+                    <label class="fields">
+                        <input class="output" type="text" placeholder="Tenge" readonly>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+
+	<footer>
+        <nav>
+            <a href="https://github.com/alikzilla" target="_blank">GitHub</a>
+            <a href="https://t.me/alikhanchou" target="_blank">Telegram</a>
+            <a href="https://www.instagram.com/nuspekovalikhan/" target="_blank">Instagram</a>
+        </nav>
+    </footer>
+
+	<script src="main.js"></script>
+</body>
+</html>
